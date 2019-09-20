@@ -47,14 +47,16 @@ body {
     grid-row: 3;
 }
 
-.deals-container .card button {
+.deals-container .card .btn {
     grid-row: 4;
 }
 
 
 
 
-
+a.cart {
+    margin: 10px;
+}
 
 
 

@@ -9,6 +9,78 @@
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="./">congolese.com</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sales.html">Flash Sales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="orders.html">Orders</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Cart <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <br>
+        <h2>Your Shopping Cart</h2>
+        <br>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Qty</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>PHILIPS Audiophile Headphones DX 27419</td>
+                    <td>$127.99</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Gourmet Camping Grill</td>
+                    <td>$87.99</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Stainless Steel Spatula Spoon Set</td>
+                    <td>$12.99</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <th scope="row"></th>
+                    <td>Total</td>
+                    <td>$501.76</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="#" class="cart float-right btn btn-primary">Checkout</a>
+        <a href="#" class="cart float-right btn btn-primary">Empty Cart</a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
     <div inject-html="html/footer.html"></div>
     
     <script src="js/script.js"></script>

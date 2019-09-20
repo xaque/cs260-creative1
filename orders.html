@@ -9,6 +9,80 @@
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="./">congolese.com</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sales.html">Flash Sales</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Orders <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <br>
+        <h2>Your Order History</h2>
+        <br>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Date</th>
+                    <th scope="col">Order Id #</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Shipping Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">9/17/19</th>
+                    <td>11535799456</td>
+                    <td>The Avengers: Endgame Blu-ray Diretor's Cut</td>
+                    <td>$59.99</td>
+                    <td>Shipped</td>
+                </tr>
+                <tr>
+                    <th scope="row">8/26/19</th>
+                    <td>11485796683</td>
+                    <td>Cheap Plastic Spatula and Ladle</td>
+                    <td>$3.23</td>
+                    <td>Arrived</td>
+                </tr>
+                <tr>
+                    <th scope="row">8/14/19</th>
+                    <td>11405664123</td>
+                    <td>77" LCD SMART TV DL-770223 DX</td>
+                    <td>$1,299.99</td>
+                    <td>Arrived</td>
+                </tr>
+                <tr>
+                    <th scope="row">6/5/19</th>
+                    <td>11245681132</td>
+                    <td>SummerTime Themed Cloth Napkins 24pc</td>
+                    <td>$29.99</td>
+                    <td>Arrived</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <p>Have an issue with an order? Chat with a support representative via <a href="#">instant message</a> or dial <a href="#">1-800-823-6544</a></p>
+        <br>
+    </div>
     <div inject-html="html/footer.html"></div>
     
     <script src="js/script.js"></script>
