@@ -13,7 +13,9 @@ body {
 }
 
 #carouselMain .carousel-caption {
-    top: 10%;
+    top: 20%;
+    color: white;
+    text-shadow: black 1px 1px;
 }
 
 .deals-container {
@@ -23,12 +25,31 @@ body {
 
 }
 
+
+
+.deals-container .card {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 1fr 1fr 2fr 2fr;
+}
+
 .deals-container .card img {
+    grid-row: 1;
     height: 15vh;
 }
 
+.deals-container .card h1 {
+    grid-row: 2;
+}
 
+.deals-container .card h6 {
+    grid-row: 3;
+}
 
+.deals-container .card button {
+    grid-row: 4;
+}
 
 
 
