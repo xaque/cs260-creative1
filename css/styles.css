@@ -24,6 +24,7 @@ nav, .btn, footer {
     top: 20%;
     color: white;
     text-shadow: black 1px 1px;
+    font-weight: bold;
 }
 
 .deals-container {
